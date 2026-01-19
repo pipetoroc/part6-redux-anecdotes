@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div>
-      <Notification message={'Esta es una notificación'}/>
+      <Notification />
       <Filter />
       <h2>Anecdotes</h2>
       <AnecdoteList />
